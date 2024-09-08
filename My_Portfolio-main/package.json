@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next dev"
+  },
+  "dependencies": {
+    "@fontsource/creepster": "^5.0.12",
+    "@netlify/plugin-nextjs": "^4.41.1",
+    "axios": "^1.6.8",
+    "n": "^9.2.0",
+    "next": "^10.2.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "styled-components": "^5.3.11",
+    "styled-normalize": "^8.0.7"
+  }
+}
